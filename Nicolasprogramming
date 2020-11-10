@@ -1,0 +1,30 @@
+
+function setup() {
+createCanvas(1000,600);
+}
+function draw() {
+ background(180,200,255);
+    
+ G = color(65);
+ fill(G);
+ circle (mouseX,mouseY,105);
+square(0,342,300,92);
+square(150,292,400,190);
+square(350,337,400,100);
+square(550,332,400,025);
+square(650,322,400,080);
+    
+ let O =color (255,204,0);
+ fill(O);
+ noStroke();
+ circle (mouseX,mouseY,100);
+
+ let B=color (149,99,74)
+ fill(B)
+ noStroke()
+square(0,400,300,92);
+square(150,350,400,200);
+square(350,395,400,100);
+square(550,390,400,025);
+square(650,380,400,080);
+} 
